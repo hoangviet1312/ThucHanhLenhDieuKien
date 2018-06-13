@@ -2,18 +2,15 @@ import java.util.Scanner;
 
 public class CanNang {
     public static void main(String[] args) {
-        double weight;
-        double height;
-        double BMI;
 
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Nhap can nang (kg)  : ");
-        weight = scanner.nextDouble();
+        double weight = scanner.nextDouble();
         System.out.println("Nhap chieu cao (m) : ");
-        height = scanner.nextDouble();
+        double height = scanner.nextDouble();
 
-        BMI = weight / (height * height);
+        double BMI = weight / (height * height);
 
         if (BMI < 18.5)
         {
