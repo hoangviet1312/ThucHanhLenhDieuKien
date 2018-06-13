@@ -31,7 +31,5 @@ public class CanNang {
         {
             System.out.println("Obese BMI : " + BMI);
         }
-
-
     }
 }
