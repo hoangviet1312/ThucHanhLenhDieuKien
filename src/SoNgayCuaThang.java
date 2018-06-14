@@ -45,6 +45,9 @@ public class SoNgayCuaThang {
             case 12:
             System.out.println("Thang " + 12 + " co 31 ngay");
             break;
+            default:
+                System.out.println("So thang khong hop le");
+                break;
         }
 
     }
