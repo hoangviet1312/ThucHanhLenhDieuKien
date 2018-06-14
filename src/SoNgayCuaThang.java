@@ -13,7 +13,7 @@ public class SoNgayCuaThang {
             System.out.println("Thang " + 1 + " co 31 ngay");
             break;
             case 2:
-            System.out.println("Thang " + 2 + " co 28 ngay");
+            System.out.println("Thang " + 2 + " co 28 hoac 29 ngay");
             break;
             case 3:
             System.out.println("Thang " + 3 + " co 31 ngay");
