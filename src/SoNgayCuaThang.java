@@ -7,48 +7,51 @@ public class SoNgayCuaThang {
         System.out.println("Nhap vao mot thang trong nam : ");
         int thang = scanner.nextInt();
 
+        String soNgayTrongThang = "";
         switch (thang)
         {
             case 1:
-            System.out.println("Thang " + 1 + " co 31 ngay");
-            break;
+                soNgayTrongThang = "31";
+                break;
             case 2:
-            System.out.println("Thang " + 2 + " co 28 hoac 29 ngay");
-            break;
+                soNgayTrongThang = "28 hoac 29";
+                break;
             case 3:
-            System.out.println("Thang " + 3 + " co 31 ngay");
-            break;
+                soNgayTrongThang = "31";
+                break;
             case 4:
-            System.out.println("Thang " + 4 + " co 30 ngay");
-            break;
+                soNgayTrongThang = "30";
+                break;
             case 5:
-            System.out.println("Thang " + 5 + " co 31 ngay");
-            break;
+                soNgayTrongThang = "31";
+                break;
             case 6:
-            System.out.println("Thang " + 6 + " co 30 ngay");
-            break;
+                soNgayTrongThang = "30";
+                break;
             case 7:
-            System.out.println("Thang " + 7 + " co 31 ngay");
-            break;
+                soNgayTrongThang = "31";
+                break;
             case 8:
-            System.out.println("Thang " + 8 + " co 31 ngay");
-            break;
+                soNgayTrongThang = "31";
+                break;
             case 9:
-            System.out.println("Thang " + 9 + " co 30 ngay");
-            break;
+                soNgayTrongThang = "30";
+                break;
             case 10:
-            System.out.println("Thang " + 10 + " co 31 ngay");
-            break;
+                soNgayTrongThang = "31";
+                break;
             case 11:
-            System.out.println("Thang " + 11 + " co 30 ngay");
-            break;
+                soNgayTrongThang = "30";
+                break;
             case 12:
-            System.out.println("Thang " + 12 + " co 31 ngay");
-            break;
+                soNgayTrongThang = "31";
+                break;
             default:
                 System.out.println("So thang khong hop le");
                 break;
         }
-
+        if (!soNgayTrongThang.equals("")) {
+            System.out.println("Thang " + thang + " co " + soNgayTrongThang + " ngay !");
+        }
     }
 }
